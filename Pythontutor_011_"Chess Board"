@@ -1,0 +1,24 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+x = (a%2==0 and b%2==0) or (not a%2==0 and not b%2==0)
+x_1=(c%2==0 and d%2==0) or (not c%2==0 and not d%2==0)
+y = (not a%2==0 and b%2==0) or (a%2==0 and not b%2==0)
+y_1=(not c%2==0 and d%2==0) or (c%2==0 and not d%2==0)
+if x==x_1 or y==y_1: print ('YES')
+else: print('NO')
+
+'''Task "Chess Board"
+ Condition
+ Two chessboard cells are set.  If they are painted in one color, then output the word YES, and if they are in different colors, then NO.  
+ The program receives four numbers from 1 to 8 each, specifying the column number and the row number for the first cell, 
+ then for the second cell.
+ In all tasks, read the input data through input () and output the answer through print ().
+ 
+ Задача «Шахматная доска»
+Условие
+Заданы две клетки шахматной доски. Если они покрашены в один цвет, то выведите слово YES, а если в разные цвета — то NO. 
+Программа получает на вход четыре числа от 1 до 8 каждое, задающие номер столбца и номер строки сначала для первой клетки, 
+потом для второй клетки.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().'''
