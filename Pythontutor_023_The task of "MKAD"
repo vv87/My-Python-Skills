@@ -1,0 +1,29 @@
+v = int(input())
+t = int(input())
+x = v * t % 109
+print(x)
+
+'''The task of "MKAD"
+Condition
+Length of the Moscow ring road -109 kilometers. 
+Biker Bob starts with zero kilometer of Moscow ring road and travels at a speed of v kilometers per hour. 
+At some point he will stop after t hours?
+
+The program takes on input a value of v and t. If v>0, the Bob moves in a positive direction on the ring road, 
+if the value of v<0, then negative.
+
+The program should output an integer from 0 to 108 — the number of the mark where you will stop Bob.
+
+In all tasks read input using input() and print the answer using print().
+
+Задача «МКАД»
+Условие
+Длина Московской кольцевой автомобильной дороги —109 километров. 
+Байкер Вася стартует с нулевого километра МКАД и едет со скоростью v километров в час. На какой отметке он остановится через t часов?
+
+Программа получает на вход значение v и t. 
+Если v>0, то Вася движется в положительном направлении по МКАД, если же значение v<0, то в отрицательном.
+
+Программа должна вывести целое число от 0 до 108 — номер отметки, на которой остановится Вася.
+
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().'''
