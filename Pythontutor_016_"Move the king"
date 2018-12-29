@@ -1,0 +1,25 @@
+a=int(input())
+b=int(input())
+a1=int(input())
+b1=int(input())
+if (a==a1+1 or a==a1-1 or a==a1) and (b==b1+1 or b==b1-1 or b==b1):
+    print('YES')
+else:
+    print('NO')
+    
+    '''The task "Move the king"
+Condition
+Chess king moves horizontally, vertically and diagonally but only 1 square. 
+The two different squares of the chessboard, determine whether the king is to go from the first cell to the second one. 
+The program receives input four numbers from 1 to 8, each specifying the column number and line number first for the first cell, 
+then second cell. The program should print YES if cell from the first move of the king you can get to the second or NO otherwise.
+In all tasks read input using input() and print the answer using print().
+    
+    Задача «Ход короля»
+Условие
+Шахматный король ходит по горизонтали, вертикали и диагонали, но только на 1 клетку. 
+Даны две различные клетки шахматной доски, определите, может ли король попасть с первой клетки на вторую одним ходом. 
+Программа получает на вход четыре числа от 1 до 8 каждое, задающие номер столбца и номер строки сначала для первой клетки, 
+потом для второй клетки. 
+Программа должна вывести YES, если из первой клетки ходом короля можно попасть во вторую или NO в противном случае.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().'''
