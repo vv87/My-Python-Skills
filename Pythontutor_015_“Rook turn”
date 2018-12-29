@@ -1,0 +1,25 @@
+a=int(input())
+b=int(input())
+a1=int(input())
+b1=int(input())
+if a==a1 or b==b1:
+    print('YES')
+else:
+    print('NO')
+    
+    '''Task “Rook turn”
+ Condition
+ Chess rook walks horizontally or vertically. 
+ Given two different cells of a chessboard, determine whether the rook can get from the first cell to the second one in a single move. 
+ The program receives four numbers from 1 to 8 each, specifying the column number and the row number for the first cell, 
+ then for the second cell.  
+ The program should deduce YES, if from the first square with the rook move you can get into the second or NO otherwise.
+ In all tasks, read the input data through input () and output the answer through print ().
+    
+ Задача «Ход ладьи»
+Условие
+Шахматная ладья ходит по горизонтали или вертикали. 
+Даны две различные клетки шахматной доски, определите, может ли ладья попасть с первой клетки на вторую одним ходом. 
+Программа получает на вход четыре числа от 1 до 8 каждое, задающие номер столбца и номер строки сначала для первой клетки, 
+потом для второй клетки. Программа должна вывести YES, если из первой клетки ходом ладьи можно попасть во вторую или NO в противном случае.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print(). '''
