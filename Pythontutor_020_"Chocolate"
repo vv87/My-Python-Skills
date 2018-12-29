@@ -1,0 +1,23 @@
+n = int(input())
+m = int(input())
+k = int(input())
+if n * m >= k and (k % n == 0 or k % m == 0):
+    print ("YES")
+else:
+    print ("NO")
+
+
+'''The Task Of "Chocolate"
+Condition
+Chocolate has the form of a rectangle divided into n×m segments. Chocolate can be used once to break in a straight line into two parts. 
+Determine whether it is possible thus to break off from the chocolate part, which consists of exactly k squares. 
+The program receives the input of three integers: n, m, k and should display YES or NO.
+In all tasks read input using input() and print the answer using print().
+
+Задача «Шоколадка»
+Условие
+Шоколадка имеет вид прямоугольника, разделенного на n×m долек. Шоколадку можно один раз разломить по прямой на две части. 
+Определите, можно ли таким образом отломить от шоколадки часть, состоящую ровно из k долек. 
+Программа получает на вход три числа: n, m, k и должна вывести YES или NO.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().
+'''
