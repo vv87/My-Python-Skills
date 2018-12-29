@@ -1,0 +1,12 @@
+x = int (input ())
+print (x % 10)
+
+'''Задача «Последняя цифра числа»
+Условие
+Дано натуральное число. Выведите его последнюю цифру.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().
+
+Task “Last Digit of Number”
+ Condition
+ Given a natural number.  Print the last digit.
+ In all tasks, read the input data through input () and output the answer through print ().'''
