@@ -1,2 +1,2 @@
 # My Python Skills
-True
+All cod on Python 3.6
