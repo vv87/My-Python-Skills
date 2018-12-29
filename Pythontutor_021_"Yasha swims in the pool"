@@ -1,0 +1,20 @@
+n,m,x,y = [ int(input()) for _ in range(4)]
+a = [x, y, m-x, n-y]
+z = [x, y, n-x, m-y]
+if n>m :
+    print(min(a))
+elif m>n :
+    print(min(z))
+
+'''The challenge "Yasha swims in the pool"
+ Condition
+ Yasha swam in a pool of size N × M meters and was tired.  At that moment, he discovered that he was x meters from one of the long sides (not necessarily from the nearest one) and y meters from one of the short sides.  What is the minimum distance must swim Yasha to get out of the pool on the side?  The program receives the input numbers N, M, x, y.  The program should display the number of meters that Yasha needs to swim to the side.
+ In all tasks, read the input data through input () and output the answer through print ().
+
+Задача «Яша плавает в бассейне»
+Условие
+Яша плавал в бассейне размером N × M метров и устал. 
+В этот момент он обнаружил, что находится на расстоянии x метров от одного из длинных бортиков (не обязательно от ближайшего) 
+и y метров от одного из коротких бортиков. Какое минимальное расстояние должен проплыть Яша, чтобы выбраться из бассейна на бортик? 
+Программа получает на вход числа N, M, x, y. Программа должна вывести число метров, которое нужно проплыть Яше до бортика.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().'''
