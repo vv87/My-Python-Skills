@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*- #
+while True:
+    n = int(input())
+    0 <= n <= 1000
+    if (n % 100 == 11 or n % 10 == 5 or n % 10 == 6 or n % 10 == 7 or
+        n % 10 == 8 or n % 10 == 9 or n % 10 == 0 or n % 100 == 12 or n % 100 == 13 or n % 100 == 14):
+        print(str(n) + ' программистов')
+    elif n == 1 or (n % 10 == 1 and n % 100 != 11):
+        print(str(n) + ' программист')
+    elif (n % 10 == 2 or 3 or 4):
+        print(str(n) + ' программиста')
+    else:
+        print ('Введите целое число от 1 до 1000')
