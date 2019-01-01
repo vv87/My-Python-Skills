@@ -1,0 +1,16 @@
+x = float(input())
+y = x - int(x)
+print(round(y, 3))
+
+'''
+Calculations
+ Task “Fractional part”
+ Condition
+ Given a positive real number X. Bring its fractional part.
+ In all tasks, read the input data through input () and output the answer through print ().
+
+Вычисления
+Задача «Дробная часть»
+Условие
+Дано положительное действительное число X. Выведите его дробную часть.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().'''
