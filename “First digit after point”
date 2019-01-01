@@ -1,0 +1,17 @@
+x = float(input())
+y = x - int(x)
+z = round(y, 8) 
+print(int(z * 10))
+
+'''
+Calculations
+ Task “First digit after point”
+ Condition
+ Given a positive real number X. Output its first digit after the decimal point.
+ In all tasks, read the input data through input () and output the answer through print ().
+
+Вычисления
+Задача «Первая цифра после точки»
+Условие
+Дано положительное действительное число X. Выведите его первую цифру после десятичной точки.
+Во всех задачах считывайте входные данные через input() и выводите ответ через print().'''
