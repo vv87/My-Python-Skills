@@ -10,10 +10,12 @@ if a!=b and a!=c and b!=c:
 
 '''The “How many numbers match” task
  Condition
- Three integers are given.  Determine how many coincide among them.  The program should output one of the numbers: 3 (if all match), 2 (if two match) or 0 (if all numbers are different).
+ Three integers are given.  Determine how many coincide among them.  
+ The program should output one of the numbers: 3 (if all match), 2 (if two match) or 0 (if all numbers are different).
  In all tasks, read the input data through input () and output the answer through print ().
 
 Задача «Сколько совпадает чисел»
 Условие
-Даны три целых числа. Определите, сколько среди них совпадающих. Программа должна вывести одно из чисел: 3 (если все совпадают), 2 (если два совпадает) или 0 (если все числа различны).
+Даны три целых числа. Определите, сколько среди них совпадающих. 
+Программа должна вывести одно из чисел: 3 (если все совпадают), 2 (если два совпадает) или 0 (если все числа различны).
 Во всех задачах считывайте входные данные через input() и выводите ответ через print().'''
