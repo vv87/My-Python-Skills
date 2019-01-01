@@ -1,7 +1,0 @@
-y=1.05
-res=100
-
-while res<=200:
-	z=res*1.05
-	res=z
-	print(enumerate(z))

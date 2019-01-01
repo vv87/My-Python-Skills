@@ -1,0 +1,8 @@
+money = 100
+how_many_years = 0
+
+while money <= 200:
+    balance = money * 1.05 # plus 5% per year
+    money = balance
+    how_many_years += 1
+    print('Years', how_many_years, 'Balance', balance)
