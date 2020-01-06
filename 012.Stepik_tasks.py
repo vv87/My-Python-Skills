@@ -1,9 +1,9 @@
-a = [int(i) for i in input().split()]
-if(len(a) == 1):
-    print(a[0])
+x = [int(i) for i in input().split()]
+if(len(x) == 1):
+    print(x[0])
 else:
-    for i in range(len(a)):
-        print(a[i - 1] + a[(i + 1) % len(a)],end=' ')
+    for i in range(len(x)):
+        print(x[i - 1] + x[(i + 1) % len(x)],end=' ')
 
 
 # Напишите программу, на вход которой подаётся список чисел одной строкой. 
